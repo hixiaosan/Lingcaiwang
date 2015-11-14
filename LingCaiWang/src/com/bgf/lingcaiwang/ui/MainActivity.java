@@ -1,10 +1,6 @@
 package com.bgf.lingcaiwang.ui;
 
 import com.bgf.lingcaiwang.R;
-import com.bgf.lingcaiwang.R.id;
-import com.bgf.lingcaiwang.R.layout;
-import com.bgf.lingcaiwang.R.menu;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
