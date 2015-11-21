@@ -4,4 +4,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <!-- Banner高度 -->
+    <dimen name="head_height">44dp</dimen>
+    <dimen name="banner_content_top_offset">-1dp</dimen>
+
 </resources>

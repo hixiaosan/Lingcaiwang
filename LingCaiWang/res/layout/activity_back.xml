@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"  >
+    
+    <FrameLayout
+        android:id="@+id/back_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/back_header"
+        android:layout_marginTop="-1dp" />
+
+
+    <include layout="@layout/header_back"
+        android:id="@id/back_header"/>
+
+</RelativeLayout>
