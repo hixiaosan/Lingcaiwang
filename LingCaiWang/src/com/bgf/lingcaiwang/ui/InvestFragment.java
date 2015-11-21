@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RadioButton;
+//import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
@@ -16,8 +16,8 @@ public class InvestFragment extends BannerFragment {
 	// Views
 	private View mainView;
 	private RadioGroup mRgInvest;
-	private RadioButton mRbProjectDirect;
-	private RadioButton mRbDebtTransfer;
+	// private RadioButton mRbProjectDirect;
+	// private RadioButton mRbDebtTransfer;
 	private ImageView mIvProject;
 	private ImageView mIvDebt;
 
@@ -36,8 +36,10 @@ public class InvestFragment extends BannerFragment {
 
 	private void initViews() {
 		mRgInvest = (RadioGroup) mainView.findViewById(R.id.rg_invest);
-		mRbProjectDirect = (RadioButton) mainView.findViewById(R.id.rb_invest_direct);
-		mRbDebtTransfer = (RadioButton) mainView.findViewById(R.id.rb_debt_transfer);
+		// mRbProjectDirect = (RadioButton)
+		// mainView.findViewById(R.id.rb_invest_direct);
+		// mRbDebtTransfer = (RadioButton)
+		// mainView.findViewById(R.id.rb_debt_transfer);
 		mIvProject = (ImageView) mainView.findViewById(R.id.iv_project);
 		mIvDebt = (ImageView) mainView.findViewById(R.id.iv_debt);
 
