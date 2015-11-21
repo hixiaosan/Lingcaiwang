@@ -3,6 +3,8 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- （我的）每个LinearLayout的padding -->
+    <dimen name="user_center_padding">15dp</dimen>
 
     <!-- Banner高度 -->
     <dimen name="head_height">44dp</dimen>

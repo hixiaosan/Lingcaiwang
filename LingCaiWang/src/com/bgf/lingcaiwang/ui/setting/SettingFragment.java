@@ -1,6 +1,7 @@
-package com.bgf.lingcaiwang.ui;
+package com.bgf.lingcaiwang.ui.setting;
 
 import com.bgf.lingcaiwang.R;
+import com.bgf.lingcaiwang.ui.BannerFragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class SettingFragment extends BannerFragment { // Views
+
 	private View mainView;
 
 	@Override

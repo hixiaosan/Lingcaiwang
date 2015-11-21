@@ -1,6 +1,7 @@
 package com.bgf.lingcaiwang.ui;
 
 import com.bgf.lingcaiwang.R;
+import com.bgf.lingcaiwang.ui.setting.SettingFragment;
 import com.bgf.lingcaiwang.utils.FragmentHelper;
 import com.bgf.lingcaiwang.utils.Logger;
 
