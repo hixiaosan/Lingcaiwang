@@ -12,4 +12,8 @@
     <string name="dialog_logining">登录中&#8230;</string>
     <string name="dialog_registering">注册中&#8230;</string>
 
+    <!-- 投资模块 -->
+    <string name="rb_project_direct">项目直投</string>
+    <string name="rb_debt_transfer">债权转让</string>
+
 </resources>
