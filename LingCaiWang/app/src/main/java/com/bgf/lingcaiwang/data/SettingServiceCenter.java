@@ -15,7 +15,7 @@ import java.util.List;
 public class SettingServiceCenter {
 
     /**
-     * 查询会员信息
+     * 查询新闻列表
      *
      * @param list_id 开始的list_id
      */

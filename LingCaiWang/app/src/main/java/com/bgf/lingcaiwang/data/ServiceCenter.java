@@ -55,7 +55,6 @@ public class ServiceCenter {
         }
         // 基本参数
         params.add(new BasicNameValuePair("sys", "Android"));
-        //TODO version,model needed?
         params.add(new BasicNameValuePair("sys_version", android.os.Build.VERSION.RELEASE));
         params.add(new BasicNameValuePair("sys_model", android.os.Build.MODEL));
         HttpResponse response = HttpKit.postJson(url, headers, params);
