@@ -16,6 +16,7 @@ public class SettingServiceCenter {
 
     /**
      * 查询新闻列表
+     * 查询列表
      * @author wang
      * @param list_id 开始的list_id
      */
