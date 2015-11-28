@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">领财网</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Progress Dialog -->
+    <string name="dialog_please_wait">请等待&#8230;</string>
+    <string name="dialog_is_sending">发送中&#8230;</string>
+    <string name="dialog_username_changing">用户名修改中&#8230;</string>
+    <string name="dialog_logining">登录中&#8230;</string>
+    <string name="dialog_registering">注册中&#8230;</string>
+
+    <!-- 投资模块 -->
+    <string name="rb_project_direct">项目直投</string>
+    <string name="rb_debt_transfer">债权转让</string>
+
+    <!-- 设置 -->
+    <string name="text_setting_news">新闻</string>
+    <string name="text_setting_billboard">公告</string>
+    <string name="text_setting_upgrade">检测更新</string>
+    <string name="text_setting_bug_report">意见反馈</string>
+    <string name="text_setting_about_app">关于我们</string>
+    <string name="text_setting_help_center">帮助中心</string>
+    <string name="text_user_protocl">用户协议</string>
+</resources>
