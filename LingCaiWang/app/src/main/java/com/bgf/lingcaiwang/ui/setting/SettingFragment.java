@@ -31,33 +31,10 @@ public class SettingFragment extends BannerFragment { // Views
         public void onClick(View v) {
             switch (v.getId()) {
                 case R.id.ll_news:
-                    new GetNews().execute();
                     break;
 
             }
         }
     };
-
-    class GetNews extends AsyncTask<Void, Void, List<News>> {
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-        }
-
-        @Override
-        protected void onPostExecute(List<News> result) {
-            super.onPostExecute(result);
-        }
-
-        @Override
-        protected List<News> doInBackground(Void... params) {
-            try {
-                return SettingServiceCenter.getNews("");
-            } catch (Exception e) {
-                Logger.d("SettingFragment", e.toString());
-            }
-            return null;
-        }
-    }
 
 }
