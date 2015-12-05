@@ -30,7 +30,7 @@ public class MainActivity extends BaseActivity implements OnChildCallbackListene
     private ImageButton mIbHome;
     private ImageButton mIbInvest;
     private ImageButton mIbLeverage;
-    private ImageButton mIbAccount;
+    private ImageButton mIbDiscovery;
     private ImageButton mIbSettings;
 
     @Override
@@ -47,13 +47,13 @@ public class MainActivity extends BaseActivity implements OnChildCallbackListene
         mIbHome = (ImageButton) findViewById(R.id.ibtn_home);
         mIbInvest = (ImageButton) findViewById(R.id.ibtn_invest);
         mIbLeverage = (ImageButton) findViewById(R.id.ibtn_leverage);
-        mIbAccount = (ImageButton) findViewById(R.id.ibtn_account);
+        mIbDiscovery = (ImageButton) findViewById(R.id.ibtn_discovery);
         mIbSettings = (ImageButton) findViewById(R.id.ibtn_settings);
 
         mIbInvest.setOnClickListener(onTabClickListener);
         mIbHome.setOnClickListener(onTabClickListener);
         mIbLeverage.setOnClickListener(onTabClickListener);
-        mIbAccount.setOnClickListener(onTabClickListener);
+        mIbDiscovery.setOnClickListener(onTabClickListener);
         mIbSettings.setOnClickListener(onTabClickListener);
         mIbHome.performClick();
     }
@@ -143,11 +143,11 @@ public class MainActivity extends BaseActivity implements OnChildCallbackListene
                     }
                     break;
 
-                case R.id.ibtn_account:
+                case R.id.ibtn_discovery:
                     if (checkLogin()) {
                         fragmentId = "AccountFragment";
                         intent = new Intent(MainActivity.this, AccountFragment.class);
-                        setButton(mIbAccount);
+                        setButton(mIbDiscovery);
                     }
                     break;
 

@@ -68,7 +68,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/account"
+            android:id="@+id/discovery"
+            android:tag="@id/ibtn_discovery"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -76,10 +77,12 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/ibtn_account"
+                android:id="@+id/ibtn_discovery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/tab_home" />
+                android:background="@drawable/tab_discovery" />
+
+
         </LinearLayout>
 
         <LinearLayout
