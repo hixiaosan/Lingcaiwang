@@ -2,6 +2,7 @@
     <string name="app_name">领财网</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="network_error">网络错误</string>
 
     <!-- Progress Dialog -->
     <string name="dialog_please_wait">请等待&#8230;</string>
@@ -22,4 +23,6 @@
     <string name="text_setting_about_app">关于我们</string>
     <string name="text_setting_help_center">帮助中心</string>
     <string name="text_user_protocl">用户协议</string>
+    <string name="title_news">新闻</string>
+    <string name="title_billboard">公告</string>
 </resources>
