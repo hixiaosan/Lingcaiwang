@@ -69,7 +69,6 @@
 
         <LinearLayout
             android:id="@+id/discovery"
-            android:tag="@id/ibtn_discovery"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
